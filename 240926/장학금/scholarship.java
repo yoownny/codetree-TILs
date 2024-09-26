@@ -7,9 +7,9 @@ public class Main {
         int num2 = sc.nextInt();
         if(num1>=90){
             if(num2>=95)
-                System.out.println(10);
+                System.out.println(100000);
             else if(num2>=90)
-                System.out.println(5);
+                System.out.println(50000);
             else
                 System.out.println(0);
         }
