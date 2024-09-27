@@ -9,11 +9,11 @@ public class Main {
             if(age<19)
                 System.out.println("BOY");
             else
-                System.out.println("GIRL");
+                System.out.println("MAN");
         }
         else if(sex == 1){
             if(age<19)
-                System.out.println("MAN");
+                System.out.println("GIRL");
             else
                 System.out.println("WOMAN");
         }
