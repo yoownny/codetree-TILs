@@ -5,6 +5,6 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         for(int i = n ; i <= 100 ; i++)
-            System.out.print(i + " ")
+            System.out.print(i + " ");
     }
 }
