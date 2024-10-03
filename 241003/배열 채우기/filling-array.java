@@ -8,10 +8,12 @@ public class Main {
         for(int i = 0 ; i < 10 ; i++){
             a[i] = sc.nextInt();
             cnt++;
-            if(a[i]==0)
+            if(a[i]==0){
+                cnt--;
                 break;
+            }
         }
-        for(int i = cnt-2 ; i >= 0 ; i --)
+        for(int i = cnt-1 ; i >= 0 ; i --)
             System.out.print(a[i] + " ");
     }
 }
