@@ -10,7 +10,7 @@ public class Main {
         if(lena > lenb){
             System.out.print(a + " " + lena);
         }
-        else if (lena , lenb)
+        else if (lena < lenb)
             System.out.print(b + " " + lenb);
         else
             System.out.print("same");
