@@ -6,12 +6,12 @@ public class Main {
         int a = sc.nextInt();
         int b = sc.nextInt();
         System.out.print(a/b);
-        if(a/b == 0)
-            a = a * 10;
         System.out.print(".");
+        a = a % b;
         for(int i = 0 ; i < 20 ; i++){
+            a = a * 10;
             System.out.print(a/b);
-            a = a % b * 10;
+            a = a % b ;
         }
     }
 }
