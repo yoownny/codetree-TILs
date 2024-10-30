@@ -9,6 +9,7 @@ public class Main {
             int m = sc.nextInt();
             sum += m;
         }
-        System.out.printf("%.1f",sum/n);
+        double result = (double)sum / n;
+        System.out.printf("%d %.1f",sum, result);
     }
 }
