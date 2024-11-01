@@ -6,10 +6,10 @@ public class Main {
         int a = sc.nextInt();
         int b = sc.nextInt();
         int c = sc.nextInt();
-        String satisfied = "YES";
+        String satisfied = "NO";
         for(int i = a ; i <= b ; i++ ){
             if(c % i == 0){
-                satisfied = "NO";
+                satisfied = "YES";
                 break;
             }
         }
