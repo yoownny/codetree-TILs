@@ -6,10 +6,10 @@ public class Main {
         int a = sc.nextInt();
         int b = sc.nextInt();
         int c = sc.nextInt();
-        String bool = "No";
+        String bool = "NO";
         for(int i = a ; i <= b ; i++ ){
             if(i % c == 0){
-                bool = "Yes";
+                bool = "YES";
             }
         }
         System.out.println(bool);
