@@ -21,10 +21,11 @@ public class Main {
                 for(int i = 0 ; i < n ; i++){
                     if(input[i] == b){
                         index =i;
+                        index++;
                         break;
                     }
                 }
-                System.out.println(++index);
+                System.out.println(index);
 
             }else if (num==3){
                 int s = sc.nextInt();
