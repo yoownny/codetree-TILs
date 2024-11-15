@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String input = sc.next();
-        input + "Hello";
+        input += "Hello";
         System.out.println(input);
     }
 }
