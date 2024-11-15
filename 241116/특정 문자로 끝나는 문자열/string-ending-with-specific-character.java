@@ -8,9 +8,14 @@ public class Main {
             input[i] = sc.next();
         }
         char c = sc.next().charAt(0);
+        int flag = 0;
         for(int i = 0 ; i < 10 ; i++){
-            if(input[i].charAt(input[i].length()-1)==c)
+            if(input[i].charAt(input[i].length()-1)==c){
                 System.out.println(input[i]);
+                flag = 1;
+            }
         }
+        if(flag==0)
+            System.out.println("None");
     }
 }
