@@ -15,7 +15,7 @@ public class Main {
             min = m;
         }
 
-        for(int i = 2; i < min; i++){
+        for(int i = 2; i <= min; i++){
             if(n % i == 0 && m % i == 0){
                 if(max < i){
                     max = i;
