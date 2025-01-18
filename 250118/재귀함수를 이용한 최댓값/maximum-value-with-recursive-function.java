@@ -5,7 +5,6 @@ public class Main {
         if(n == 0){
             return num[0];
         }
-
         return Math.max(isFind(n-1,num),num[n]);
     }
     public static void main(String[] args) {
@@ -16,6 +15,6 @@ public class Main {
             num[i] = sc.nextInt();
         }
         int max = num[0];
-        System.out.println(isFind(n, num));
+        System.out.println(isFind(n-1, num));
     }
 }
