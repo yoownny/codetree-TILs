@@ -8,7 +8,7 @@ public class Main {
         int m2 = sc.nextInt();
         int d2 = sc.nextInt();
 
-        int[] day = {31, 28, 31, 20, 31, 30, 31, 31, 30, 31, 30, 31};
+        int[] day = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
         int num = 1;
 
         while(true){
