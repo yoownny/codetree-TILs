@@ -5,12 +5,12 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int N = sc.nextInt();
         int M = sc.nextInt();
-        int[] A = new int[1000];
-        int[] B = new int[1000];
+        long[] A = new long[1000];
+        long[] B = new long[1000];
         int cnt1 = 0;
-        int station = 0;
+        long station = 0;
         int cnt2 = 0;
-        int station2 = 0;
+        long station2 = 0;
 
         for(int i = 0 ; i < N ; i++ ){
             char d = sc.next().charAt(0);
@@ -18,14 +18,14 @@ public class Main {
             if(d == 'L'){
                 while(t > 0){
                     station--;
-                    A[cnt1] = station;
+                    A[cnt1] = (long)station;
                     cnt1++;
                     t--;
                 }
             }else if(d == 'R'){
                 while(t > 0){
                     station++;
-                    A[cnt1] = station;
+                    A[cnt1] = (long)station;
                     cnt1++;
                     t--;
                 }
@@ -38,14 +38,14 @@ public class Main {
             if(d == 'L'){
                 while(t > 0){
                     station2--;
-                    B[cnt2] = station2;
+                    B[cnt2] = (long)station2;
                     cnt2++;
                     t--;
                 }
             }else if(d == 'R'){
                 while(t > 0){
                     station2++;
-                    B[cnt2] = station2;
+                    B[cnt2] = (long)station2;
                     cnt2++;
                     t--;
                 }
