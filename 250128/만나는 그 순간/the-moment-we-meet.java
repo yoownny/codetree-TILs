@@ -5,8 +5,8 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int N = sc.nextInt();
         int M = sc.nextInt();
-        long[] A = new long[1000];
-        long[] B = new long[1000];
+        long[] A = new long[1000000];
+        long[] B = new long[1000000];
         int cnt1 = 0;
         long station = 0;
         int cnt2 = 0;
