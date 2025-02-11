@@ -6,7 +6,7 @@ public class Main {
         int N = sc.nextInt();
         int K = sc.nextInt();
 
-        ArrayList<Integer> queue = new ArrayList<Integer>();
+        LinkedList<Integer> queue = new LinkedList<Integer>();
         for(int i = 0 ; i < N ; i++){
             queue.add(i);
         }
