@@ -9,11 +9,15 @@ public class Main {
 
 	public static void tsp(int start, int current, int cnt, int cost) {
 		if (cnt == N) {
-			cost += road[current][start];
-			minCost = Math.min(minCost, cost);
+			if (road[current][start] != 0) {
+				cost += road[current][start];
+				minCost = Math.min(minCost, cost);
+			}
+			return;
 		}
+
 		for (int i = 0; i < N; i++) {
-			if (!visited[i]) {
+			if (!visited[i] && road[current][i] != 0) {
 				visited[i] = true;
 				tsp(start, i, cnt + 1, cost + road[current][i]);
 				visited[i] = false;
@@ -36,7 +40,7 @@ public class Main {
 
 		visited[0] = true;
 		tsp(0, 0, 1, 0);
-		
+
 		System.out.println(minCost);
 
 	}
